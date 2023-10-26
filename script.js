@@ -8,7 +8,7 @@ async function getUserData(ID) {
      console.log("Данные с сервера не получены");
   }
 }
-getUserData(1).then(result => {
+getUserData(4).then(result => {
   if (result === undefined) {
      console.log("Пользователь не найден");
   } else {
